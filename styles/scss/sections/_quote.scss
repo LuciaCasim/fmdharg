@@ -1,0 +1,99 @@
+.quote {
+    position: relative;
+    margin-bottom: 5rem;
+
+    &__image {
+        @include col-12();
+        background-color: $light-gray;
+
+        &-container {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+
+    &__img {
+        @include col-9();
+        background-image: url('../../img/lammens.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 13rem;
+        height: 13rem;
+        border-radius: 12px;
+        @include big-shadow;
+        position: relative;
+        top: 5rem;
+        
+    }
+
+    &__text {
+        padding-top: 8rem;
+        max-width: 90%;
+        margin: 0 auto;
+        @include col-12();
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    &__quote {
+        margin-bottom: 2rem;
+    }
+
+    
+
+    @media screen and (min-width: map-get($grid-breakpoints, lg)) {
+        margin-bottom: 0;
+        
+
+        &__image {
+            @include col-3();
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding: 7rem 0;
+
+            &-container {
+                margin: 0;
+            }
+            
+        }
+
+        &__img {
+            width: 15rem;
+            height: 15rem;
+            top: initial;
+            right: -6rem;
+        }
+
+        &__text {
+            grid-column: 6 / span 6;
+            position: absolute;
+            padding-top: 0;
+            height: 100%;
+
+            &-inner {
+                display: flex;
+                height: 100%;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+        }
+
+    }
+
+    @media screen and (min-width: map-get($grid-breakpoints, xl)) {
+        &__img {
+            width: 18rem;
+            height: 18rem;
+        }
+    }
+
+}

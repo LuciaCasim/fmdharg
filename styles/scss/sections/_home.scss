@@ -1,0 +1,163 @@
+.home {
+    background-image: url('../../img/home.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto 120%;
+
+    background-position: 35% 100% ;
+
+    &__opacity {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(0deg, rgba(112, 114, 128, 0.8), rgba(112, 114, 128, 0.3)),;
+        height: 100vh;
+        width: 100vw;
+        mix-blend-mode: multiply;
+        z-index: 0;
+    }
+
+    @media screen and (min-width: map-get($grid-breakpoints, lg)) {
+        background-image: url('../../img/home.jpg');
+        background-size: cover;
+        background-position: 70% center;
+        @include col-6();
+        text-align: left;
+    }
+
+    &__container {
+        position: relative;
+        height: inherit;
+        @include col-12();
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (min-width: map-get($grid-breakpoints, lg)) {
+            grid-column: 2 / span 7;  
+            
+        }
+    }
+
+    &__preheader {
+        color: $white;
+        margin-bottom: 0.5rem
+    }
+
+    &__text {
+        z-index: 1;
+        text-align: left;
+        color: $white;  
+        @include text-shadow(); 
+        text-align: center;
+        margin-bottom: 2rem;
+
+        @media screen and (min-width: map-get($grid-breakpoints, lg)) {
+            margin-bottom: 2rem;
+            text-align: left;               
+        }
+               
+
+    }
+
+    &__logos {
+        z-index: 1;
+        position: absolute;
+        bottom: 5%;
+        width: 90%;
+        max-width: 400px;
+        
+         
+        &-container {
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.12);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(7px);
+            -webkit-backdrop-filter: blur(7px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: center;          
+            flex-wrap: wrap;
+            padding: 1.5rem 1.5rem;    
+        }
+
+        &-group {
+            display: flex;
+            align-items: center;
+            gap: 2rem; 
+            
+            &-1 {
+                padding-bottom: 1rem;
+                width: 80%;              
+            }
+
+            &-2 {
+                padding: 0 1rem;
+                padding-top: 1rem;
+                width: 90%;
+                border-top: 1px solid $white;
+            }
+           
+        }
+
+        &-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+
+        @media screen and (min-width: map-get($grid-breakpoints, sm)) {
+            width: 100%;
+            max-width: 700px;
+
+            &-container {
+                // gap: 2rem;
+                padding: 2rem 3rem;          
+                flex-wrap: nowrap;
+            }
+            
+
+            &-img {
+                padding: 0;
+                width: auto;
+                max-width: 90%;
+                height: auto;
+            }
+            
+            img {
+                max-width: 100%;
+            }
+
+            &-group-2 {
+                padding: 0;
+                width: 100%;
+                border-top: none;
+            }
+
+            &-group-1 {
+                padding: 0;
+                width: 100%;
+                margin-right: 2rem;
+            }
+        }
+
+        @media screen and (min-width: map-get($grid-breakpoints, lg)) {
+            bottom: 10%;
+            max-width: 100%;
+        }
+       
+        
+    }
+
+}

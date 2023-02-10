@@ -1,0 +1,51 @@
+// BREAKPOINTS
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1400px
+);
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(12, 1fr);
+  height: 100%;
+
+}
+
+.grid-max{
+  width: 1300px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+ 
+
+@mixin col-3 {
+  grid-column: span 3 / span 3;
+}
+
+@mixin col-4 {
+  grid-column: span 4 / span 4;
+}
+
+@mixin col-6 {
+  grid-column: span 6 / span 6;
+}
+
+@mixin col-7 {
+  grid-column: span 7 / span 7;
+}
+
+@mixin col-9 {
+  grid-column: span 9 / span 9;
+}
+
+@mixin col-12 {
+  grid-column: span 12 / span 12;
+}
+
+

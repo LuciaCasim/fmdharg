@@ -1,0 +1,29 @@
+// COLORS
+$dark-blue: #21254F;
+$blue: #2E0098;
+$purple: #520BFF;
+$dark-gray: #707280;
+$medium-gray: #B3B3B3;
+$light-gray: #EEEFF7;
+$white: #FFFFFF;
+
+// SHADOW
+@mixin big-shadow {
+    box-shadow: 16px 16px 32px 0px rgba(33,37,79,0.2);
+    -webkit-box-shadow: 16px 16px 32px 0px rgba(33,37,79,0.2);
+    -moz-box-shadow: 16px 16px 32px 0px rgba(33,37,79,0.2);
+}
+
+@mixin small-shadow {
+    box-shadow: 8px 8px 16px 0px rgba(33,37,79,0.2);
+    -webkit-box-shadow: 8px 8px 16px 0px rgba(33,37,79,0.2);
+    -moz-box-shadow: 8px 8px 16px 0px rgba(33,37,79,0.2);
+}
+
+@mixin image-shadow {
+    filter: drop-shadow(8px 8px 16px rgba(33,37,79,0.7));
+}
+
+@mixin text-shadow {
+    text-shadow: 8px 8px 16px rgba(33,37,79,0.3);
+}

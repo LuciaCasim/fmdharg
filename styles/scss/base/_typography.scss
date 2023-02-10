@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&family=Quicksand:wght@400;500;600&display=swap');
+
+
+@mixin quicksand-regular {
+    font-family: 'Quicksand','Arial', sans-serif;
+    font-weight: 400;
+}
+
+@mixin quicksand-medium {
+    font-family: 'Quicksand','Arial', sans-serif;
+    font-weight: 500;
+}
+
+@mixin quicksand-semibold {
+    font-family: 'Quicksand','Arial', sans-serif;
+    font-weight: 600;
+}
+
+@mixin plusjakarta-medium {
+    font-family: 'Plus Jakarta Sans','Arial', sans-serif;
+    font-weight: 500;
+}
+
+@mixin plusjakarta-bold {
+    font-family: 'Plus Jakarta Sans','Arial', sans-serif;
+    font-weight: 700;
+}
+
+
+h1 {
+    @include quicksand-semibold();
+    line-height: 120%;
+    font-size: 2.5rem;
+
+    span {
+        @include quicksand-regular();
+    }
+
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        font-size: 3.5rem;
+    }
+}
+
+h2 {
+    @include quicksand-medium();
+    line-height: 120%;
+    font-size: 2.25rem;
+    color: $dark-blue;
+
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        font-size: 2.8125rem
+    }   
+}
+
+h3 {
+    @include quicksand-medium();
+    line-height: 120%;
+    font-size: 1.5rem;
+    color: $dark-blue;
+
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        font-size: 2rem
+    }
+}
+
+.p {
+    @include quicksand-regular();
+    color: $dark-gray;
+    font-size: 1rem;
+    line-height: 150%;
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        font-size: 1.125rem;
+    }
+}
+
+.p-big {
+    @include quicksand-regular();
+    color: $dark-gray;
+    font-size: 1.25rem;
+    line-height: 150%;
+    @media screen and (min-width: map-get($grid-breakpoints, xl)) {
+        font-size: 1.5rem;
+    }
+}
+
+.p-small {
+    @include quicksand-regular();
+    color: $dark-gray;
+    font-size: 0.875rem;
+    line-height: 150%;
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        font-size: 1rem;
+    }
+}
+
+button {
+    @include plusjakarta-medium();
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5;
+}
+
+.preheader {
+    @include plusjakarta-medium();
+    color: $medium-gray;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.75rem;
+
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        font-size: 0.875rem;
+    }
+}
+
+.navbar li {
+    @include plusjakarta-bold();
+    color: $blue;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.75rem;
+}
+
+.navbar__dropdown-selected {
+    @include plusjakarta-bold();
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.75rem;
+}
+
+.inversion__header {
+    @include quicksand-semibold();
+    line-height: 120%;
+    font-size: 2.5rem;
+
+    span {
+        @include quicksand-regular();
+    }
+
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        font-size: 3.5rem;
+    }
+}

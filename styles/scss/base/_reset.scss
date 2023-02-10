@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    &::before, &::after {
+        box-sizing: border-box;}
+}
+
+body {
+    overflow: scroll;
+    position: relative;
+    height: 100%;
+    overflow-x: hidden !important;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+
+a, a::before, a::after, a:visited, a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 0;
+}

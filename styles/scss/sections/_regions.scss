@@ -1,0 +1,136 @@
+.regions {
+    margin-top: 5rem;
+
+    &__preheader {
+        margin-bottom: 0.5rem
+    }
+
+
+    &__card {
+        @include big-shadow;
+        // display: flex;
+        flex-direction: column;
+        width: 320px;
+        max-width: 90vw;
+        border-radius: 12px;
+        padding: 1.5rem;
+        z-index: 2;
+
+        &-image {
+            border-radius: 12px;
+            height: 224px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-bottom: 2rem;
+            background-position: center center;
+
+            &-1 {
+                background-image: url("../../img/region_patagonia.png");
+            }
+
+            &-2 {
+                background-image: url("../../img/region_norte.png");
+            }
+
+            &-3 {
+                background-image: url("../../img/region_litoral.png");
+            }
+
+            &-4 {
+                background-image: url("../../img/region_cuyo.png");
+            }
+
+            &-5 {
+                background-image: url("../../img/region_cordoba.png");
+            }
+
+            &-6 {
+                background-image: url("../../img/region_ba.png");
+            }
+        }
+
+        &-preheader {
+            margin-bottom: 0.5rem;
+        }
+
+        &-header {
+            margin-bottom: 1rem;
+        }
+
+        &-p {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__text {
+        margin-bottom: 2rem;
+    }
+
+
+
+
+
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        margin-top: 6rem;
+    }
+
+    @media screen and (min-width: map-get($grid-breakpoints, lg)) {
+        margin-top: 7rem;
+
+        &__text {
+            margin-bottom: 3rem;
+        }
+
+        &__card {
+
+            &-image {
+                height: 240px;
+            }
+        }
+
+    }
+
+}
+
+.swiper {
+    width: 100%;
+  }
+
+
+.swiper-wrapper {
+    padding-bottom: 2.5rem;
+
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        padding-bottom: 3rem;
+    }
+}
+
+.regions__slider-buttons { 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.regions__slider-button {
+    background-color: $purple;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 32px;
+    border: none;
+
+    cursor: pointer;
+    transition: cubic-bezier();
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+
+    &:active, &:focus, &:visited {
+        transform: translateY(0px);
+    }
+    
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
