@@ -818,14 +818,6 @@ header {
   border-radius: 32px;
   border: none;
   cursor: pointer;
-  transition: cubic-bezier();
-  transition: 0.3s ease-in-out;
-}
-.regions__slider-button:active, .regions__slider-button:focus, .regions__slider-button:visited {
-  transform: translateY(0px);
-}
-.regions__slider-button:hover {
-  transform: translateY(-5px);
 }
 
 .inversion {
