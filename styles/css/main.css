@@ -738,9 +738,19 @@ header {
   flex-direction: column;
   width: 320px;
   max-width: 90vw;
+  height: 540px;
   border-radius: 12px;
   padding: 1.5rem;
   z-index: 2;
+}
+@media screen and (min-width: 768px) {
+  .regions__card {
+    height: 590px;
+  }
+}
+.regions__card .blueButton {
+  position: absolute;
+  bottom: 2.5rem;
 }
 .regions__card-image {
   border-radius: 12px;
@@ -825,11 +835,11 @@ header {
   cursor: pointer;
 }
 
-.inversion {
+.rutaNatural {
   background-image: url("../../img/inversion.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 40% top;
+  background-position: center top;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -838,7 +848,7 @@ header {
   position: relative;
   margin-top: 5rem;
 }
-.inversion__opacity {
+.rutaNatural__opacity {
   position: absolute;
   top: 0;
   left: 0;
@@ -848,22 +858,22 @@ header {
   mix-blend-mode: multiply;
   z-index: 0;
 }
-.inversion__preheader {
+.rutaNatural__preheader {
   margin-bottom: 0.5rem;
   color: #FFFFFF;
   text-shadow: 8px 8px 16px rgba(33, 37, 79, 0.3);
 }
-.inversion__header {
+.rutaNatural__header {
   margin-bottom: 1rem;
   color: #FFFFFF;
   text-shadow: 8px 8px 16px rgba(33, 37, 79, 0.3);
 }
-.inversion__text {
+.rutaNatural__text {
   color: #FFFFFF;
   text-shadow: 8px 8px 16px rgba(33, 37, 79, 0.3);
   margin: 0 auto 2rem auto;
 }
-.inversion__container {
+.rutaNatural__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -873,27 +883,27 @@ header {
   max-width: 90%;
   z-index: 1;
 }
-.inversion__container .blueButton {
+.rutaNatural__container .blueButton {
   align-self: center;
 }
 @media screen and (min-width: 768px) {
-  .inversion {
+  .rutaNatural {
     margin-top: 6rem;
     background-position: center center;
   }
-  .inversion__container {
+  .rutaNatural__container {
     margin: 6rem 0;
     min-height: 40vh;
   }
-  .inversion__text {
+  .rutaNatural__text {
     max-width: 70%;
   }
 }
 @media screen and (min-width: 1024px) {
-  .inversion {
+  .rutaNatural {
     margin-top: 7rem;
   }
-  .inversion__container {
+  .rutaNatural__container {
     margin: 7.5rem 0;
     max-width: 50%;
   }

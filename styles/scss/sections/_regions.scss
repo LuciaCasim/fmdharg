@@ -13,9 +13,19 @@
         flex-direction: column;
         width: 320px;
         max-width: 90vw;
+        height: 540px;
         border-radius: 12px;
         padding: 1.5rem;
         z-index: 2;
+
+        @media screen and (min-width: map-get($grid-breakpoints, md)) {
+            height: 590px;
+        }
+
+        .blueButton {
+            position: absolute;
+            bottom: 2.5rem ;
+        }
 
         &-image {
             border-radius: 12px;
