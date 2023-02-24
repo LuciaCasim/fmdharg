@@ -291,11 +291,11 @@ header {
 }
 
 .nav-transparent { 
-    background-color:transparent;
+    background-color: transparent;
 
-    .navbar__logo {
-        img {
+    .navbar__logo-img {
+       
             filter: brightness(0) invert(1);
         }
-    }
+    
 }

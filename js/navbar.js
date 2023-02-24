@@ -1,3 +1,5 @@
+
+
 let navbar__toggler = document.getElementById('navbar__toggler');
 let navbar__links = document.getElementById('navbar__links');
 let navbar__dropdown_toggle = document.getElementById('navbar__dropdown_toggle');
@@ -107,3 +109,4 @@ document.addEventListener("DOMContentLoaded", function(){
     }
    
   }); 
+

@@ -134,7 +134,7 @@ button {
   font-weight: 500;
   font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 0.5;
+  letter-spacing: 0.8px;
 }
 
 .preheader {
@@ -454,7 +454,7 @@ header {
 .nav-transparent {
   background-color: transparent;
 }
-.nav-transparent .navbar__logo img {
+.nav-transparent .navbar__logo-img {
   filter: brightness(0) invert(1);
 }
 
