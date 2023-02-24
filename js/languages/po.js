@@ -198,8 +198,7 @@ function translatePortuguese() {
    <div class="rutaNatural__container" data-aos="fade-up" data-aos-duration="1000">
        <p class="preheader rutaNatural__preheader">Procurando uma aventura? Explore</p>
        <h2 class="rutaNatural__header">A Rota Natural</h2>
-       <p class="p rutaNatural__text">A Rota Natural. 
-           Conheça as 17 rotas que a Argentina oferece para explorar suas paisagens, fauna e flora.</p>
+       <p class="p rutaNatural__text">Conheça as 17 rotas que a Argentina oferece para explorar suas paisagens, fauna e flora.</p>
        <a href="https://inversionesturisticas.tur.ar/" target="_blank" rel="noopener noreferrer"><button class="blueButton">Saiba Mais</button></a>
    </div>
 </section>`
