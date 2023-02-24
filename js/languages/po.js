@@ -71,7 +71,7 @@ function translatePortuguese() {
            <p class="preheader buenosAires__preheader">Explore a</p>
            <h2 class="buenosAires__header">Cidade de Buenos Aires</h2>
            <p class="p buenosAires__description">Vibrante, única e apaixonada. Uma cidade à altura das grandes capitais do mundo.</p>
-           <a href="https://www.argentina.travel/en/province/ciudad-autonoma-de-buenos-aires" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+           <a href="https://www.argentina.travel/po/province/ciudad-autonoma-de-buenos-aires" target="_blank"><button class="blueButton">Saiba Mais</button></a>
        </div>
        
    </div>
@@ -91,7 +91,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região da</p>
                <h3 class="regions__card-header">Patagônia</h3>
                <p class="p-small regions__card-p">Lagos azuis e ventos inconfundíveis na imensidão do sul. Da estepe ao Fim do Mundo sem parar!</p>
-               <a href="https://www.argentina.travel/en/region/patagonia" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/region/patagonia" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <div class="swiper-slide swiper-slide-duplicate regions__card">
@@ -99,7 +99,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região</p>
                <h3 class="regions__card-header">Norte</h3>
                <p class="p-small regions__card-p">Tradição e cultura, juntamente com o legado dos povos originários. Uma paleta de cores vivas para explorar de novo e de novo.</p>
-               <a href="https://www.argentina.travel/en/region/norte" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/region/norte" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <div class="swiper-slide swiper-slide-duplicate regions__card">
@@ -107,7 +107,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região</p>
                <h3 class="regions__card-header">Litoral</h3>
                <p class="p-small regions__card-p">Todo o poder da natureza, entre cachoeiras maravilhosas, espécies de todos os tipos e a magia do Rio Paraná.</p>
-               <a href="https://www.argentina.travel/en/region/litoral" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/region/litoral" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <div class="swiper-slide swiper-slide-duplicate regions__card">
@@ -115,7 +115,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região de</p>
                <h3 class="regions__card-header">Cuyo</h3>
                <p class="p-small regions__card-p">Desfrute em frente à Cordilheira dos Andes com um copo do melhor Malbec do mundo. Uma síntese do bem viver.</p>
-               <a href="https://www.argentina.travel/en/region/cuyo" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/region/cuyo" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <div class="swiper-slide swiper-slide-duplicate regions__card">
@@ -123,7 +123,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região de</p>
                <h3 class="regions__card-header">Córdoba</h3>
                <p class="p-small regions__card-p">Rios, golfe, fernet e tudo o que você propõe, no coração das imponentes serras argentinas.</p>
-               <a href="https://www.argentina.travel/en/region/cordoba" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/region/cordoba" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <div class="swiper-slide swiper-slide-duplicate regions__card">
@@ -131,7 +131,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região de</p>
                <h3 class="regions__card-header">Buenos Aires</h3>
                <p class="p-small regions__card-p">Entre aldeias gauchescas e praias tranquilas, a gastronomia e a natureza levam à diversão.</p>
-               <a href="https://www.argentina.travel/en/province/buenos-aires" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/province/buenos-aires" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <!-- DUPLICATE -->
@@ -141,7 +141,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região da</p>
                <h3 class="regions__card-header">Patagônia</h3>
                <p class="p-small regions__card-p">Lagos azuis e ventos inconfundíveis na imensidão do sul. Da estepe ao Fim do Mundo sem parar!</p>
-               <a href="https://www.argentina.travel/en/region/patagonia" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/region/patagonia" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <div class="swiper-slide swiper-slide-duplicate regions__card">
@@ -149,7 +149,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região</p>
                <h3 class="regions__card-header">Norte</h3>
                <p class="p-small regions__card-p">Tradição e cultura, juntamente com o legado dos povos originários. Uma paleta de cores vivas para explorar de novo e de novo.</p>
-               <a href="https://www.argentina.travel/en/region/norte" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/region/norte" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <div class="swiper-slide swiper-slide-duplicate regions__card">
@@ -157,7 +157,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região</p>
                <h3 class="regions__card-header">Litoral</h3>
                <p class="p-small regions__card-p">Todo o poder da natureza, entre cachoeiras maravilhosas, espécies de todos os tipos e a magia do Rio Paraná.</p>
-               <a href="https://www.argentina.travel/en/region/litoral" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/region/litoral" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <div class="swiper-slide swiper-slide-duplicate regions__card">
@@ -165,7 +165,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região de</p>
                <h3 class="regions__card-header">Cuyo</h3>
                <p class="p-small regions__card-p">Desfrute em frente à Cordilheira dos Andes com um copo do melhor Malbec do mundo. Uma síntese do bem viver.</p>
-               <a href="https://www.argentina.travel/en/region/cuyo" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/region/cuyo" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <div class="swiper-slide swiper-slide-duplicate regions__card">
@@ -173,7 +173,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região de</p>
                <h3 class="regions__card-header">Córdoba</h3>
                <p class="p-small regions__card-p">Rios, golfe, fernet e tudo o que você propõe, no coração das imponentes serras argentinas.</p>
-               <a href="https://www.argentina.travel/en/region/cordoba" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/region/cordoba" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
            <div class="swiper-slide swiper-slide-duplicate regions__card">
@@ -181,7 +181,7 @@ function translatePortuguese() {
                <p class="preheader regions__card-preheader">Região de</p>
                <h3 class="regions__card-header">Buenos Aires</h3>
                <p class="p-small regions__card-p">Entre aldeias gauchescas e praias tranquilas, a gastronomia e a natureza levam à diversão.</p>
-               <a href="https://www.argentina.travel/en/province/buenos-aires" target="_blank"><button class="blueButton">Saiba Mais</button></a>
+               <a href="https://www.argentina.travel/po/province/buenos-aires" target="_blank"><button class="blueButton">Saiba Mais</button></a>
            </div>
 
        </div>
