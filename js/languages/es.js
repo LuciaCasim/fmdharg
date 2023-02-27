@@ -200,7 +200,7 @@ function translateSpanish() {
        <p class="preheader rutaNatural__preheader">¿Buscando una aventura? Explora</p>
        <h2 class="rutaNatural__header">La Ruta Natural</h2>
        <p class="p rutaNatural__text">Conoce las 17 rutas que Argentina ofrece para explorar sus paisajes, su fauna y su flora.</p>
-       <a href="https://inversionesturisticas.tur.ar/" target="_blank" rel="noopener noreferrer"><button class="blueButton">Conocer más</button></a>
+       <a href="https://larutanatural.gob.ar/" target="_blank" rel="noopener noreferrer"><button class="blueButton">Conocer más</button></a>
    </div>
 </section>`
 createSwiper();

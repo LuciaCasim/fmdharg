@@ -199,7 +199,7 @@ function translateEnglish() {
       <p class="preheader rutaNatural__preheader">Are you looking for adventures? Explore</p>
       <h2 class="rutaNatural__header">La Ruta Natural</h2>
       <p class="p rutaNatural__text">Learn about the 17 nature routes in Argentina to explore its landscapes, flora, and flora.</p>
-      <a href="https://inversionesturisticas.tur.ar/" target="_blank" rel="noopener noreferrer"><button class="blueButton">More information</button></a>
+      <a href="https://larutanatural.gob.ar/" target="_blank" rel="noopener noreferrer"><button class="blueButton">More information</button></a>
   </div>
 </section>`
 createSwiper();
