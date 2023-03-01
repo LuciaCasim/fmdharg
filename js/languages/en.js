@@ -6,7 +6,7 @@ function translateEnglish() {
    // NAV
    document.getElementById("nav-buenosAires").innerHTML  ="The City of Buenos Aires";
    document.getElementById("nav-regions").innerHTML  ="Regions";
-   document.getElementById("nav-rutaNatural").innerHTML  ="La Ruta Natural";
+   document.getElementById("nav-rutaNatural").innerHTML  ="The Natural Route";
 
   document.getElementById("main").innerHTML =  String.raw`<section class="home" id="home" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in">
   <div class="grid grid-max">
@@ -198,8 +198,8 @@ function translateEnglish() {
   <div class="rutaNatural__opacity"></div>
   <div class="rutaNatural__container" data-aos="fade-up" data-aos-duration="1000">
       <p class="preheader rutaNatural__preheader">Are you looking for adventures? Explore</p>
-      <h2 class="rutaNatural__header">La Ruta Natural</h2>
-      <p class="p rutaNatural__text">Learn about the 17 nature routes in Argentina to explore its landscapes, flora, and flora.</p>
+      <h2 class="rutaNatural__header">The Natural Route</h2>
+      <p class="p rutaNatural__text">Learn about the 17 nature routes in Argentina to explore its landscapes, flora, and fauna.</p>
       <a href="https://larutanatural.gob.ar/" target="_blank" rel="noopener noreferrer"><button class="blueButton">More information</button></a>
   </div>
 </section>`
