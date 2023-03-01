@@ -496,7 +496,7 @@ header {
 }
 @media screen and (min-width: 1024px) {
   .home__container {
-    grid-column: 2/span 7;
+    grid-column: 3/span 8;
   }
 }
 .home__preheader {
@@ -514,7 +514,6 @@ header {
 @media screen and (min-width: 1024px) {
   .home__text {
     margin-bottom: 2rem;
-    text-align: left;
   }
 }
 .home__logos {
@@ -541,14 +540,13 @@ header {
 .home__logos-group {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: space-around;
 }
 .home__logos-group-1 {
   padding-bottom: 1rem;
-  width: 80%;
+  width: 90%;
 }
 .home__logos-group-2 {
-  padding: 0 1rem;
   padding-top: 1rem;
   width: 90%;
   border-top: 1px solid #FFFFFF;
@@ -558,6 +556,7 @@ header {
   align-items: center;
   justify-content: center;
   z-index: 2;
+  margin: 0 1rem;
 }
 .home__logos-img img {
   max-width: 100%;
@@ -576,9 +575,10 @@ header {
     width: auto;
     max-width: 90%;
     height: auto;
+    margin: 0 0.5rem;
   }
   .home__logos img {
-    max-width: 100%;
+    max-width: 90%;
   }
   .home__logos-group-2 {
     padding: 0;
@@ -588,7 +588,6 @@ header {
   .home__logos-group-1 {
     padding: 0;
     width: 100%;
-    margin-right: 2rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -933,7 +932,7 @@ header {
 .footer__main-logos {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 70%;
   gap: 2rem;
   justify-content: center;
 }
@@ -954,15 +953,20 @@ header {
   justify-content: center;
   padding: 1rem 0;
 }
+@media screen and (min-width: 576px) {
+  .footer__main-logo {
+    padding: 0rem 0;
+  }
+}
 .footer__main-logo-1 img {
-  width: 80%;
+  width: 60%;
 }
 .footer__main-logo-2 img {
-  width: 50%;
+  width: 80%;
 }
 .footer__divider {
   width: 90%;
-  height: 1px;
+  height: 0.5px;
   background-color: #FFFFFF;
   margin: 2rem 0;
 }

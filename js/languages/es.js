@@ -20,27 +20,27 @@ function translateSpanish() {
                <h1 class="home__header">III Foro Mundial de Derechos Humanos <span>Argentina 2023</span></h1>
            </div>
            <div class="home__logos">
-               <div class="home__logos-container">
-                   <div class="home__logos-group home__logos-group-1">
-                       <div class="home__logos-img">
-                           <img src="img/logo_foro.svg" alt="Logo Foro Mundial de Derechos Humanos">
-                       </div>
+           <div class="home__logos-container">
+           <div class="home__logos-group home__logos-group-1">
+               <div class="home__logos-img">
+                   <img src="img/logo_cipdh.svg" alt="Logo Centro Internacional para la promoción de los Derechos Humanos">
+               </div>
 
-                       <div class="home__logos-img">
-                           <img src="img/logo_cipdh.svg" alt="Logo Centro Internacional para la promoción de los Derechos Humanos">
-                       </div>
-                   </div>
+               <div class="home__logos-img">
+                   <img src="img/logo_secretaria.svg" alt="Logo Secretaria de Derechos Humanos">
+               </div>
+ 
+           </div>
 
-                   <div class="home__logos-group home__logos-group-2">
-                       <div class="home__logos-img">
-                           <img src="img/logo_mintur.svg" alt="Logo Ministerio de Turismo y Deportes Argentina">
-                       </div>
-                       <div class="home__logos-img">
-                           <img src="img/logo_inprotur.svg" alt="Logo Inprotur - Instituto Nacional de Promoción Turística">
-                       </div>  
-                   </div>
-                                                                                                                       
-               </div>                   
+           <div class="home__logos-group home__logos-group-2">
+               <div class="home__logos-img">
+                   <img src="img/logo_foro.svg" alt="Logo Foro Mundial de Derechos Humanos">
+               </div>  
+               <div class="home__logos-img">
+                   <img src="img/logo_mintur.svg" alt="Logo Ministerio de Turismo y Deportes Argentina">
+               </div>                            
+       </div>
+
            </div>
        </div>          
 

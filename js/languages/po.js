@@ -19,27 +19,28 @@ function translatePortuguese() {
                <h1 class="home__header">III Fórum Mundial de Direitos Humanos <span>Argentina 2023</span></h1>
            </div>
            <div class="home__logos">
-               <div class="home__logos-container">
-                   <div class="home__logos-group home__logos-group-1">
-                       <div class="home__logos-img">
-                           <img src="img/logo_foro.svg" alt="Logo Foro Mundial de Derechos Humanos">
-                       </div>
 
-                       <div class="home__logos-img">
-                           <img src="img/logo_cipdh.svg" alt="Logo Centro Internacional para la promoción de los Derechos Humanos">
-                       </div>
-                   </div>
+           <div class="home__logos-container">
+           <div class="home__logos-group home__logos-group-1">
+               <div class="home__logos-img">
+                   <img src="img/logo_cipdh.svg" alt="Logo Centro Internacional para la promoción de los Derechos Humanos">
+               </div>
 
-                   <div class="home__logos-group home__logos-group-2">
-                       <div class="home__logos-img">
-                           <img src="img/logo_mintur.svg" alt="Logo Ministerio de Turismo y Deportes Argentina">
-                       </div>
-                       <div class="home__logos-img">
-                           <img src="img/logo_inprotur.svg" alt="Logo Inprotur - Instituto Nacional de Promoción Turística">
-                       </div>  
-                   </div>
-                                                                                                                       
-               </div>                   
+               <div class="home__logos-img">
+                   <img src="img/logo_secretaria.svg" alt="Logo Secretaria de Derechos Humanos">
+               </div>
+ 
+           </div>
+
+           <div class="home__logos-group home__logos-group-2">
+               <div class="home__logos-img">
+                   <img src="img/logo_foro.svg" alt="Logo Foro Mundial de Derechos Humanos">
+               </div>  
+               <div class="home__logos-img">
+                   <img src="img/logo_mintur.svg" alt="Logo Ministerio de Turismo y Deportes Argentina">
+               </div>                            
+       </div> 
+
            </div>
        </div>          
 
@@ -58,7 +59,7 @@ function translatePortuguese() {
        <div class="quote__text-inner" data-aos="fade-up" data-aos-duration="1000">
            <img src="img/quote_icon.svg" alt="" class="quote__icon">
            <p class="p-big quote__quote">É um orgulho receber este <strong>III Fórum Mundial de Direitos Humanos,</strong> um tema em que a Argentina é um exemplo a seguir. Esperamos que vocês aproveitem a cidade de Buenos Aires e descubram as atrações naturais, gastronômicas, culturais e históricas que nosso país oferece.</p>
-           <p class="preheader quote__author"><strong>Matías Lammens.</strong> Minister of Tourism and Sports of Argentina.</p>
+           <p class="preheader quote__author"><strong>Matías Lammens.</strong> Ministro do Turismo e Esportes da Argentina..</p>
        </div>
        
    </div>

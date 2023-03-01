@@ -22,7 +22,8 @@
     &__main-logos {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 70%;
+        gap: 2rem;
 
         @media screen and (min-width: map-get($grid-breakpoints, sm)) {
             flex-direction: row;
@@ -33,7 +34,7 @@
             width: 60%;
         }
 
-        gap: 2rem;
+        
         
         justify-content: center;
     }
@@ -44,9 +45,14 @@
         justify-content: center;
         padding: 1rem 0;
 
+        @media screen and (min-width: map-get($grid-breakpoints, sm)) {
+            padding: 0rem 0;
+        }
+
+
          &-1 {
             img {
-                width: 80%;
+                width: 60%;
             }
             
          }
@@ -54,7 +60,7 @@
          &-2 {
 
             img {
-                width: 50%;
+                width: 80%;
             }
             
          }
@@ -62,7 +68,7 @@
 
     &__divider {
         width: 90%;
-        height: 1px;
+        height: 0.5px;
         background-color: $white;
         margin: 2rem 0;
 
